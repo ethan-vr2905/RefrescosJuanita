@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffaf5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #fceae8;
+    padding: 20px;
+}
+
+.logo {
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #444;
+    margin: 0 15px;
+    font-size: 1.2em;
+    transition: transform 0.3s ease;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+}
+
+.section {
+    padding: 40px;
+}
+
+.catalogo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.bebida {
+    border-radius: 15px;
+    padding: 20px;
+    width: 200px;
+    transition: transform 0.3s ease;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.bebida:hover {
+    transform: scale(1.05);
+}
+
+.bebida img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.bebida h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Colores pastel por sabor */
+.uva { background-color: #ede4fd; }
+.limon { background-color: #e3fddf; }
+.mandarina { background-color: #ffe9d8; }
+.tamarindo { background-color: #f5e4d8; }
